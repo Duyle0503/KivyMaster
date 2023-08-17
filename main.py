@@ -5,8 +5,9 @@ from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.core.window import Window
 from kivy.uix.image import Image
 import kivymd
-print(kivymd.__version__)
-Window.size = (300, 650)
+H = Window.height
+W = Window.width
+Window.size = (W, H)
 
 screen_helper = """
 
