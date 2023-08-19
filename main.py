@@ -19,7 +19,7 @@ ScreenManager:
 
     name: 'menu'
     Image:
-        source: 'st.gif'
+        source: 'st2.png'
         allow_stretch : True
         keep_ratio: True
         anim_delay : 0
