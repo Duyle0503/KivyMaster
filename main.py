@@ -33,7 +33,7 @@ ScreenManager:
     MDRectangleFlatButton:
         text: 'Upload'
         pos_hint: {'center_x':0.5,'center_y':0.5}
-        on_press: root.manager.current = 'upload'
+        on_press: root.manager.current = 'upload kk'
  
 <ProfileScreen>:
     name: 'profile'
